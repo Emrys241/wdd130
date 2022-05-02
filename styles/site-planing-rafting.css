@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94;
-  --secondary-color: #E7C24F;
+  --primary-color: #FFD23F;
+  --secondary-color: #FA58994F;
   --accent1-color: #A42212;
-  --accent2-color: white;
+  --accent2-color: #FA58994F;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
@@ -19,7 +19,7 @@ Fonts are separated by a | */
   /* headlines on a white background */
   --headline-color-on-color: #FFD23F;
   /* headlines on a colored background */
-  --paragraph-color-on-white: #FFD23F;
+  --paragraph-color-on-white: #14080E;
   /* paragraph text on a white background */
   --paragraph-color-on-color: white;
   /* paragraph text on a colored background */
