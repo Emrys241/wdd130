@@ -1,0 +1,101 @@
+/*class selector for the logo element*/
+.logo {
+    width: 80px;
+}
+
+/*type selector for background*/
+body {
+    color: black;
+    background-color: azure;
+}
+
+/* class selector is more specific than type selector*/
+.background {
+    background-color: lightblue;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+header{
+    background:rgba(20,30,13, .7);
+}
+
+nav a:hover{
+    background: black;
+    color: #eee7de;
+}
+
+.book, .join{
+    background: lightcyan;
+    color: deeppink;
+}
+
+.book:hover, .join:hover{
+background: yellowgreen;
+color: beige;
+}
+
+#background{
+    background: blue;
+}
+
+.msg{
+    background: goldenrod;
+}
+footer{
+    background: brown;
+}
+
+.Home-title{
+    color: red;
+}
+h4{
+    color: gold;
+}
+.msg h2{
+    color: greenyellow;
+}
+.msg p{
+    color: blue;
+}
+footer h3{
+    color: crimson;
+}
+footer a{
+    color: bisque;
+}
+footer a:hover{
+    color: blueviolet;
+}
+#hero-image{
+    width: 100%;
+}
+footer h3 a:hover{
+    text-decoration: underline;
+}
