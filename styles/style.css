@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:wght@100&family=Roboto:wght@300;400&family=Rock+Salt&family=Smooch&display=swap');
+
 /*class selector for the logo element*/
 .logo {
     width: 80px;
@@ -7,6 +9,10 @@
 body {
     color: black;
     background-color: azure;
+    font-family: Grape Nuts;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 
 /* class selector is more specific than type selector*/
@@ -23,6 +29,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -38,64 +45,119 @@ main section {
     text-align: center;
 }
 
-#background{
+#background {
     height: 725px;
 }
 
-header{
-    background:rgba(20,30,13, .7);
+header {
+    background: rgba(20, 30, 13, .7);
 }
 
-nav a:hover{
+nav a:hover {
     background: black;
     color: #eee7de;
 }
 
-.book, .join{
+.book,
+.join {
     background: lightcyan;
-    color: deeppink;
+    color: black;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover{
-background: yellowgreen;
-color: beige;
+.book:hover,
+.join:hover {
+    background: yellowgreen;
+    color: beige;
 }
 
-#background{
+#background {
     background: blue;
 }
 
-.msg{
-    background: goldenrod;
-}
-footer{
-    background: brown;
+.msg {
+    background: burlywood;
+    line-height: 2.1em;
+    padding: 35px;
 }
 
-.home-title{
+footer {
+    background: lightblue;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.home-title {
     color: red;
+    font-family: Rock salt;
+    font-size: 2em;
+    margin-top: 10px;
 }
-h4{
-    color: gold;
+
+h4 {
+    color: green;
 }
-.msg h2{
-    color: greenyellow;
+
+.msg h2 {
+    color: royalblue;
 }
-.msg p{
+
+.msg p {
     color: blue;
+    font-size: 3em;
+    padding-bottom: 15px;
 }
-footer h3{
-    color: crimson;
+
+footer h3 {
+    color: green;
 }
-footer a{
-    color: bisque;
+
+footer a {
+    color: black;
 }
-footer a:hover{
+
+footer a:hover {
     color: blueviolet;
 }
-#hero-image{
+
+#hero-image {
     width: 100%;
 }
-footer h3 a:hover{
+
+footer h3 a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding: 5px;
+
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+footer .social {
+    padding-top: 15px;
+}
+
+.river-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 20px solid #6a4c93;
+}
+
+main section img {
+    box-sizing: border-box;
 }
