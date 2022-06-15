@@ -309,3 +309,60 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* the Subpage content*/
+#historygrid {
+    margin-top: 0;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 100px;
+}
+
+#history {
+    
+}
+
+.cardx .cardz {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    margin: 50px auto;
+
+}
+.history-year{
+    text-align: right;
+}
+
+#history-msg {
+    text-align: center;
+}
+
+.end-of-history {
+    text-align: center;
+}
+
+#history-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.sub-grid {
+    background-color: aqua;
+    width: 50px auto;
+}
+
+.history2 {
+    display: flex;
+    padding: 10px;
+    flex: left;
+}
+
+.history1 {
+    display: flex;
+    padding: 10px;
+    flex: left;
+}
