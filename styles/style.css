@@ -333,10 +333,13 @@ nav {
 }
 .history-year{
     text-align: right;
+    color: black;
 }
 
 #history-msg {
     text-align: center;
+    color: red;
+    background-color: white;
 }
 
 .end-of-history {
@@ -355,14 +358,15 @@ nav {
     width: 50px auto;
 }
 
-.history2 {
+.history-h {
     display: flex;
-    padding: 10px;
-    flex: left;
+   float: left;
+   padding: 20px;
+   margin-block-end: auto;
 }
 
-.history3 {
+.history-i {
     display: flex;
-    padding: 10px;
-    flex: left;
+    float: right;
+    padding: 50px;
 }
