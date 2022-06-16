@@ -76,6 +76,10 @@ nav a:hover {
     background: yellowgreen;
     color: beige;
 }
+.join{
+    padding: 5px;
+    text-decoration: none;
+}
 
 .msg {
     background: burlywood;
@@ -105,6 +109,7 @@ h4 {
 
 .msg h2 {
     color: royalblue;
+    margin-bottom: 20px;
 }
 
 .msg p {
@@ -125,7 +130,7 @@ footer a:hover {
     color: blueviolet;
 }
 
-#hero-image {
+#hero-img {
     width: 100%;
 }
 
@@ -155,6 +160,7 @@ footer .social {
 .river-card,
 .camping-card,
 .rapids-card {
+    width: 400px;
     margin: 200px 0;
 }
 
@@ -200,7 +206,7 @@ nav {
     color: white;
 }
 
-#hero-smg {
+#hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -245,6 +251,10 @@ nav {
     grid-row: 6/7;
     padding: 35px;
     background-color: #6f7364;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
 }
 
 .card-img:hover {
