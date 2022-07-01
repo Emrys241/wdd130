@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Permanent+Marker&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Ubuntu:wght@300&display=swap');
 
 .logo{
-    width: 110px;
+    width: 200px;
+
 }
 nav a{
     text-align: center;
-    color: rgb(0, 0, 0);
-    display: block;
-    padding: 35px;
-    background-color: rgb(43, 226, 43);
+    color: black;
     text-decoration: none;
-    justify-content: space-around;
+    padding: 50px;
+    font-family: caveat;
+    font-size: 50px;   
 }
-body{
-    background-color: aqua;
+nav a:hover{
+    color: rgb(129, 205, 15);
+    background: black;
 }
+
 nav{
-    flex-direction: column;
     display: flex;
     justify-content: space-around;
 }
@@ -29,6 +30,7 @@ nav{
 .greetings{
     text-justify: auto;
     text-align: center;
+    font-family: ubuntu;
 }
 
 .home{
@@ -46,8 +48,12 @@ nav{
 }
 p{
     padding: 50px;
+    font-family: Tiro Devanagari Sanskrit;
+    font-size: 150%;
+    color: rgb(88, 12, 241);
 }
 .Gallary{
+    background-color: lightgreen;
     column-gap: 10px;
     row-gap: 15px;
     display:grid;
@@ -66,10 +72,14 @@ p{
 }
 
 footer{
-    background: lightblue;
+    background: lightgreen;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
