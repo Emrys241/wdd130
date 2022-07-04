@@ -51,8 +51,8 @@ p{
 }
 .Gallary{
     background-color: #5c0029;
-    column-gap: 10px;
-    row-gap: 15px;
+    column-gap: 5px;
+    row-gap: 5px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;

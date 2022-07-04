@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Permanent+Marker&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Ubuntu:wght@300&display=swap');
 
-.logo{
+.log{
     width: 90px;
 
 }
 nav a{
     text-align: center;
-    color: #f7d002;;
+    color: #f7d002;
     text-decoration: none;
     padding: 10px;
     font-family: caveat;
@@ -21,24 +21,24 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+
+
 .Greetings{
     text-align: center;
-    font-family: caveat;
+    font-family: Caveat;
     color: #454e9e;
 }
-
-
-.Greetings-2{
+.king{
     text-align: center;
     font-family: ubuntu;
     color: #5c0029;
 }
 
-.food-1{
-    width: 100%;
+.home{
     height: 100%;
+    width: 100%;
 }
-.food-2{
+.home-2{
     width: 100%;
     height: 100%;
 }
@@ -49,29 +49,14 @@ p{
     color: #454e9e;
     background-color: #f7d002;
 }
-.C-Dishes, .L-Dishes{
-    background-color: #5c0029;
-    column-gap: 5px;
-    row-gap: 5px;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-.C-Dishes img, .L-Dishes img{
+.booking img{
     width: 100%;
     height: 100%;
+
 }
-.Local, .continental{
-    text-align: center;
-    font-family: caveat;
-}
-.flyer{
+.booking {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-}
-.flyer img{
-    width: 100%S;
     height: 100%;
 }
 
