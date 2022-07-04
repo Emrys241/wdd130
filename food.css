@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Permanent+Marker&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Ubuntu:wght@300&display=swap');
 
 .logo{
-    width: 70px;
+    width: 90px;
 
 }
 nav a{
@@ -20,6 +20,10 @@ nav a:hover{
 nav{
     display: flex;
     justify-content: space-around;
+}
+.Greetings{
+    text-align: center;
+    font-family: caveat;
 }
 
 
