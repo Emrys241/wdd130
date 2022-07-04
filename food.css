@@ -31,6 +31,7 @@ nav{
 .Greetings-2{
     text-align: center;
     font-family: ubuntu;
+    color: #5c0029;
 }
 
 .food-1{
@@ -46,9 +47,10 @@ p{
     font-family: Tiro Devanagari Sanskrit;
     font-size: 150%;
     color: #454e9e;
+    background-color: #f7d002;
 }
 .C-Dishes, .L-Dishes{
-    background-color: black;
+    background-color: #5c0029;
     column-gap: 10px;
     row-gap: 15px;
     display:grid;
@@ -74,7 +76,7 @@ p{
 }
 
 footer{
-    background: lightgreen;
+    background: #3ec300;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -84,4 +86,5 @@ footer{
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #3ec300;
 }
