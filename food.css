@@ -23,27 +23,17 @@ nav{
 }
 
 
-.Greetings{
+.Greetings-2{
     text-align: center;
-    font-family: Caveat;
-}
-.Greetings{
-    text-justify: auto;
-    text-align: left;
-    font-family: caveat;
+    font-family: ubuntu;
 }
 
 .food-1{
-    display: flex;
-    margin-left: 0PX;
-    margin-right: auto;
-    width: 300px;
+    width: 100%;
+    height: 100%;
 }
 .food-2{
-    display: flex;
-    margin-left: auto;
-    margin-right: 0px;
-    width: 300px;
+    width: 100%;
     height: 100%;
 }
 p{
