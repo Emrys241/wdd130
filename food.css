@@ -6,14 +6,14 @@
 }
 nav a{
     text-align: center;
-    color: black;
+    color: #f7d002;;
     text-decoration: none;
     padding: 10px;
     font-family: caveat;
     font-size: 40px;   
 }
 nav a:hover{
-    color: rgb(129, 205, 15);
+    color: #3ec300;
     background: black;
 }
 
@@ -24,6 +24,7 @@ nav{
 .Greetings{
     text-align: center;
     font-family: caveat;
+    color: #454e9e;
 }
 
 
@@ -44,7 +45,7 @@ p{
     padding: 45px;
     font-family: Tiro Devanagari Sanskrit;
     font-size: 150%;
-    color: rgb(88, 12, 241);
+    color: #454e9e;
 }
 .C-Dishes, .L-Dishes{
     background-color: black;
