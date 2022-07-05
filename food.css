@@ -5,6 +5,9 @@
     width: 90px;
 
 }
+body{
+    background-color: grey;
+}
 nav a:hover{
     color: #3ec300;
     background: black;
@@ -32,7 +35,7 @@ nav{
 .Greetings-2{
     text-align: center;
     font-family: ubuntu;
-    color: #5c0029;
+    color: #3ec300;
 }
 
 .food-1{
@@ -69,10 +72,11 @@ p{
 .flyer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: #5c0029;
     
 }
 .flyer img{
-    width: 100%S;
+    width: 100%;
     height: 100%;
 }
 
