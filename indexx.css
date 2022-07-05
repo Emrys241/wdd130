@@ -4,6 +4,10 @@
     width: 90px;
 
 }
+nav a:hover{
+    color: #3ec300;
+    background: black;
+}
 nav a{
     text-align: center;
     color: #f7d002;

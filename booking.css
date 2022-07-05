@@ -12,11 +12,6 @@ nav a{
     font-family: caveat;
     font-size: 40px;   
 }
-nav a:hover{
-    color: #3ec300;
-    background: black;
-}
-
 nav{
     display: flex;
     justify-content: space-around;
