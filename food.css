@@ -5,18 +5,14 @@
 
 }
 nav a{
+
     text-align: center;
     color: #f7d002;;
     text-decoration: none;
     padding: 10px;
     font-family: caveat;
-    font-size: 40px;   
+    font-size: 40px;  
 }
-nav a:hover{
-    color: #3ec300;
-    background: black;
-}
-
 nav{
     display: flex;
     justify-content: space-around;
