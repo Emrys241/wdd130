@@ -4,6 +4,9 @@
     width: 90px;
 
 }
+body{
+    background-color: grey;
+}
 nav a:hover{
     color: #3ec300;
     background: black;
