@@ -21,7 +21,7 @@ nav{
 .Greetings{
     text-align: left;
     font-family: Caveat;
-    color: #454e9e;
+    color: #072AC8;
 }
 .king{
     text-align: center;
@@ -39,9 +39,9 @@ nav{
 }
 p{
     padding: 45px;
-    font-family: Tiro Devanagari Sanskrit;
+    font-family: Tiro+Devanagari+Sanskrit;
     font-size: 150%;
-    color: #454e9e;
+    color: #072AC8;
     background-color: #f7d002;
 }
 .booking img{
