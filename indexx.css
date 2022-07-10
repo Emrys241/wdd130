@@ -5,7 +5,8 @@
 
 }
 body{
-    background-color: grey;
+    background-color: #CDCDCD;
+    margin: 10px;
 }
 nav a:hover{
     color: #3ec300;
